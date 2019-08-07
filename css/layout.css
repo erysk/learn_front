@@ -1,0 +1,51 @@
+h1 {
+  margin: 0;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.title {
+  color: mediumseagreen;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.tel-info {
+  text-align: center;
+}
+
+.tel-info .tel{
+  font-size: 2rem;
+  color: red;
+}
+
+.logo img {
+  height: 10vh;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  width: calc(100%/7 - 2px);
+  height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  background-color: darkorange;
+  border-radius: 10px;
+  margin: 0 1px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
